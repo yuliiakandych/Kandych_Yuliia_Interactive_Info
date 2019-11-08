@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+body {
+  background-color: white;
+  color: black;
+  font-family: "Montserrat", sans-serif; }
+
+.hidden {
+  display: none; }
+
+.headerbox {
+  margin: 10px;
+  position: relative;
+  max-height: calc(100% - 14rem);
+  overflow: hidden; }
+  .headerbox p {
+    width: 45%;
+    position: absolute;
+    left: 45px;
+    top: 90px;
+    max-height: calc(100% - 14rem); }
+  .headerbox .header {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 3vh;
+    position: absolute;
+    top: 28px;
+    left: 45px;
+    width: 45%; }
+  .headerbox .wineImg {
+    margin: 0; }
+
+/*# sourceMappingURL=main.css.map */
