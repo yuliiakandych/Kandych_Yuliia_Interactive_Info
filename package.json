@@ -1,0 +1,30 @@
+{
+  "name": "interactive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuliiakandych/Kandych_Yuliia_Interactive_Info.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuliiakandych/Kandych_Yuliia_Interactive_Info/issues"
+  },
+  "homepage": "https://github.com/yuliiakandych/Kandych_Yuliia_Interactive_Info#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.0.6",
+    "mysql": "^2.17.1",
+    "nodemon": "^1.19.4"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}
