@@ -12,19 +12,27 @@
     <title>Interactive Inphographic</title>
 </head>
 <body>
-    <div class="headerbox">
-         <h1 class="header">
-        Who drinks the most wine?
-    </h1>
-    <p>
-        Top 5 countries by servings 
-        consumed per person.
-    </p>
+    
     <img class="wineImg"src="images/wine_top.svg" alt="">
+    <h1 class="click">Click on the name below!</h1>
     </div>
     
-       
-                {{{body}}}
+       <div class="intro">
+            {{{body}}}
+
+       </div>
+               
+                <template id="book-template">
+        <!-- you can put all kinds of markup here - semantic tagging, etc -->
+        <div class="user-panel">
+            <div class="user-panel-header">
+                <img class="b-cover"></img>
+                <h1 class="b-name"></h1>
+            </div>
+
+            {{!-- <button class="b-button">More Details</button> --}}
+        </div>
+    </template>
               
 
 

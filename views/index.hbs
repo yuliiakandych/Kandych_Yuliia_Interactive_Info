@@ -1,16 +1,58 @@
 <h1 class="hidden">Interactive Infographic</h1>
 
-  <div>
-                      {{# each element}}
-                          <a class="plantPictures" href={{ID}}><div>
-                            <img src='images/{{Image}}.jpg'>
-                          </div></a>
-                          <h1>
-                            {{name}}
-                          </h1>
-                          
-                          {{/each}}
-  </div>
+
+   {{#each data}}
+    <div class="user-panel">
+        <img  class="c-cover" src="images/{{img}}">
+        <a class="c-link" href="{{ID}}">
+            <h1>
+            {{country}}
+        </h1>
+          
+        </a> 
+     
+  
+         
+   
+        <h3>
+            {{description}}
+        </h3>
+        {{!-- <h3>{{ID}}</h3> --}}
+        {{!-- <img clss="c-cover" src="images/{{cover}}"> --}}
+
+
+    </div>
+    
+
+
+        {{/each}}
+    </div>
+    </div>
+
+    <!-- this will be filled in on the client side when we render our AJAX data -->
+
+
+
+ <section class="lightbox">
+        
+        <div class="sidebar">
+           
+          <img  src="" alt=""> 
+        </div>
+
+        <div class="lb-content">
+             
+
+        </div>
+      
+       <div class="close">
+       <span > Back </span>
+       </div>
+    </section>
+
+    
+
+
                         
 
                  
