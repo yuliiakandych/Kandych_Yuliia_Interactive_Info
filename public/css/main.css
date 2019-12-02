@@ -7,26 +7,190 @@ body {
 .hidden {
   display: none; }
 
-.headerbox {
-  margin: 10px;
-  position: relative;
-  max-height: calc(100% - 14rem);
-  overflow: hidden; }
-  .headerbox p {
-    width: 45%;
-    position: absolute;
-    left: 45px;
-    top: 90px;
-    max-height: calc(100% - 14rem); }
-  .headerbox .header {
+.wineImg {
+  width: 100%; }
+
+.c-cover {
+  width: 50%; }
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px; }
+
+.c-link {
+  text-decoration: none; }
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3vh;
+  color: black; }
+
+.click {
+  font-size: 2.75vh;
+  color: #DB3A7C;
+  margin-left: 10px; }
+
+.user-panel {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px; }
+
+.cover-cover {
+  max-width: 90%; }
+
+.lightbox {
+  display: none;
+  flex-direction: row;
+  min-height: 150vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1000;
+  background-color: rgba(183, 158, 154, 0.95); }
+
+.sidebar {
+  flex: 1;
+  text-align: center; }
+
+.lb-content {
+  flex: 3;
+  animation: slideDownLarge 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+  text-align: center;
+  vertical-align: middle;
+  color: #422722;
+  font-size: 2.25vh;
+  margin: 25px; }
+
+.close {
+  cursor: pointer;
+  font-size: 2vh;
+  background-color: #e04153;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  border-radius: 5vh;
+  width: 20%;
+  text-align: center;
+  margin: 0 auto; }
+  .close:hover {
+    animation-name: example;
+    animation-duration: 1s; }
+@keyframes example {
+  from {
+    color: white; }
+  to {
+    color: #422722; } }
+.scroll {
+  margin: 20px;
+  font-size: 2.75vh;
+  color: #3e3d4b;
+  display: flex;
+  margin-left: 0;
+  opacity: 0.8; }
+
+@keyframes slideUpLarge {
+  0% {
+    transform: translateY(0%); }
+  100% {
+    transform: translateY(-100%); } }
+@keyframes slideDownLarge {
+  0% {
+    transform: translateY(-100%); }
+  100% {
+    transform: translateY(0%); } }
+@keyframes moveUp {
+  0% {
+    transform: translateY(150px); }
+  100% {
+    transform: translateY(0); } }
+@keyframes moveDown {
+  0% {
+    transform: translateY(0px); }
+  100% {
+    transform: translateY(150px); } }
+@keyframes scaleUp {
+  0% {
+    transform: scale(0.8) translateY(100px);
+    opacity: 0; }
+  100% {
+    transform: scale(1) translateY(100px);
+    opacity: 1; } }
+.show-lb {
+  animation: moveUp 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+  display: block !important; }
+
+.desc-js {
+  color: white;
+  font-size: 6vh; }
+
+.number {
+  font-family: "Montserrat", sans-serif;
+  font-size: 5vh;
+  font-weight: bold; }
+
+.country-desc {
+  font-size: 3vh; }
+
+@media screen and (min-width: 768px) {
+  .cover-cover {
+    max-width: 50%; }
+
+  .lightbox {
+    min-height: 160vh; }
+
+  .intro {
+    margin-top: 30px; }
+
+  h1 {
     font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    font-size: 3vh;
-    position: absolute;
-    top: 28px;
-    left: 45px;
-    width: 45%; }
-  .headerbox .wineImg {
-    margin: 0; }
+    font-size: 4vh;
+    color: black; }
+
+  .click {
+    font-size: 3.75vh;
+    color: #DB3A7C;
+    margin-left: 10px; }
+
+  .c-cover {
+    width: 60%; } }
+@media screen and (min-width: 1024px) {
+  .cover-cover {
+    max-width: 30%; }
+
+  .c-cover {
+    width: 200px;
+    height: 200px; }
+
+  .lightbox {
+    min-height: 230vh; }
+
+  .intro {
+    margin-top: 40px; }
+
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 6vh;
+    color: black; }
+
+  .click {
+    font-size: 4.75vh;
+    color: #DB3A7C;
+    margin-left: 30px; }
+
+  .wineImg {
+    max-width: 90%;
+    margin-left: 100px; }
+
+  .number {
+    font-size: 7vh;
+    font-weight: bold; }
+
+  .country-desc {
+    font-size: 5vh; } }
 
 /*# sourceMappingURL=main.css.map */

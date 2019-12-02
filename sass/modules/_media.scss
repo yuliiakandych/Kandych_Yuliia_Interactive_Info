@@ -1,0 +1,99 @@
+@media screen and (min-width: 768px) {
+    
+    .cover-cover{
+        max-width: 50%;
+      
+      }
+      .lightbox{
+          min-height:160vh;;
+      }
+
+      .intro{
+    
+            margin-top:30px;
+          
+    }
+    
+    
+        h1{
+            font-family: $font;
+            font-size: 4vh;
+            color:black;
+        }
+    
+    
+    
+    .click{
+        font-size: 3.75vh;
+        color:#DB3A7C;
+        margin-left:10px;
+    }
+       
+    .c-cover{
+    
+        width:60%;
+           
+   }
+}
+//adjust size
+@media screen and (min-width: 1024px) {
+//this is image of people with wine
+    .cover-cover{
+        max-width: 30%;
+      
+      }
+
+      //this is rounded flag of each country
+      .c-cover{
+    
+        width:200px;
+        height: 200px;
+           
+   }
+// the size of the lightbox background
+   .lightbox{
+    min-height:230vh;
+}
+
+.intro{
+
+      margin-top:40px;
+    
+}
+
+//this is h1 reffers to the country name- France, Portugal etc.
+  h1{
+      font-family: $font;
+      font-size: 6vh;
+      color:black;
+  }
+
+
+//this is explenation line on top
+.click{
+  font-size: 4.75vh;
+  color:#DB3A7C;
+  margin-left:30px;
+}
+//this is first svg on the page with wine bottle
+.wineImg{
+    max-width:90%;
+    margin-left: 100px;
+    
+    }
+    //this is lightbox number of the country: 1,2,3
+    .number{
+        
+        font-size:7vh;
+        font-weight: bold;
+      }
+      //this is description of the wine consuming
+      .country-desc{
+        font-size: 5vh;
+        
+      }
+
+
+
+}
+
