@@ -8,7 +8,7 @@ consumed by one person in the top 5 countries.
 
 
 
-##Run the app  
+## Run the app  
  - 1st step: Terminal: sudo npm install nodemon --save
  - 2nd step: Terminal: sudo npm install
  - 3rd step: Terminal: npm start
