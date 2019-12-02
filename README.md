@@ -1,4 +1,4 @@
-# Kandych_Yuliia_Interactive_Info
+# Kandych_Yuliia_Interactive_SVG
 
 Wine is one of the oldest beverages in the world. A number of studies has shown
 that a glass of wine a day can improve health. Moreover, each bottle of wine brings
